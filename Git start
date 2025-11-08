@@ -6,7 +6,7 @@ git -h
 git —help
 
 # установка глобального пользователя Git (для всех проектов)
-git config --global user.name "Yulia"
+git config --global user.name "Julia888-M"
 
 # установка глобального email пользователя Git (для всех проектов)
 git config --global user.email “julia.nikishova84@yandex.ru“
