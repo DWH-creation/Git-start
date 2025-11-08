@@ -1,0 +1,41 @@
+Git start
+
+# вызов краткой справки / проверка установки Git
+git
+git -h
+git —help
+
+# установка глобального пользователя Git (для всех проектов)
+git config --global user.name "Yulia"
+
+# установка глобального email пользователя Git (для всех проектов)
+git config --global user.email “julia.nikishova84@yandex.ru“
+
+# включение цветного вывода информации (в ряде случаев включено по умолчанию)
+git config --global color.ui true
+
+# вывод списка настроек
+git config list
+git config --list
+
+# вывод имени пользователя/email из настроек
+git config user.name
+git config user.email
+
+# вывод истории команд
+history
+
+# установка локальной настройки Git (для конкретного репозитория)
+git config user.name "Yulia"
+git config user.email “julia.nikishova84@yandex.ru"
+
+Расположение конфиг-файла
+
+1. Системные настройки Git (для всех пользователей)
+C:\Program Files\Git\etc\gitconfig
+
+2. Глобальные настройки (для текущего пользователя)
+%USERPROFILE%\.gitconfig
+
+3. Локальные настройки (для конкретного репозитория)
+<Путь_к_репозиторию>\.git\config
