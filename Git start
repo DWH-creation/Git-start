@@ -186,3 +186,5 @@ git reset ORIG_HEAD --hard
 # вернуться к состоянию после указанного коммита
 git reset --hard <commit_id>
 
+#удалить локальный репозиторий
+rm -rf .git
